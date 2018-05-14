@@ -22,6 +22,7 @@
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/toolbar_container"
+        android:elevation="@dimen/appbar_elevation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -36,7 +37,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
                 android:layout_gravity="bottom"
-                android:elevation="@dimen/fab_elevation"
                 app:layout_collapseMode="pin">
 
                 <ImageView
